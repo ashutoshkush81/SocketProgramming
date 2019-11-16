@@ -37,7 +37,7 @@ if __name__ == "__main__":
     print "Connecting to server at 127.0.0.1:5000"
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect(('', 8080))
+    client_socket.connect(('', 5001))
 
     print "Connected to server at 127.0.0.1:5000"
 

@@ -42,3 +42,4 @@ while True :
             i.close()
         s.close()
         break
+s.close()
